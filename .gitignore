@@ -8,3 +8,7 @@ ebin/
 .eunit
 log
 logs
+DS_Store
+*~
+.#*
+.rebar
