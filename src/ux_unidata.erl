@@ -77,8 +77,8 @@ test_dir() ->
     end.
 
 
-get_dir('ucd') -> priv_dir() ++ "/"  ?UNIDATA_VERSION  "/";
-get_dir('uca') -> priv_dir() ++ "/"  ?UCADATA_VERSION  "/".
+get_dir('ucd') -> priv_dir() ++ "/"  ?UNIDATA_VERSION;
+get_dir('uca') -> priv_dir() ++ "/"  ?UCADATA_VERSION.
 
 
 get_test_dir('ucd') -> test_dir() ++ "/"  ?UNIDATA_VERSION  "/";
